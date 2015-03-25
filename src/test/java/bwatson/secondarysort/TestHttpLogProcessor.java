@@ -1,4 +1,4 @@
-package com.bwatson.secondarysort;
+package bwatson.secondarysort;
 
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
@@ -9,6 +9,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
+
+import bwatson.secondarysort.HttpLogProcessor;
 
 @RunWith(MockitoJUnitRunner.class)
 public class TestHttpLogProcessor {

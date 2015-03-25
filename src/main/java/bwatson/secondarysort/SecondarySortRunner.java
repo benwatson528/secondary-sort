@@ -1,4 +1,4 @@
-package com.bwatson.secondarysort;
+package bwatson.secondarysort;
 
 import org.apache.crunch.PCollection;
 import org.apache.crunch.PTable;

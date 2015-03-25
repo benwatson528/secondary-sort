@@ -1,4 +1,4 @@
-package com.bwatson.secondarysort;
+package bwatson.secondarysort;
 
 import org.apache.crunch.DoFn;
 import org.apache.crunch.Emitter;

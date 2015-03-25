@@ -1,4 +1,4 @@
-package com.bwatson.secondarysort;
+package bwatson.secondarysort;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -15,6 +15,8 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.util.StringUtils;
 import org.junit.Before;
 import org.junit.Test;
+
+import bwatson.secondarysort.SecondarySortRunner;
 
 public class TestSecondarySort {
 	private static final String PART_PREFIX = "part-";
